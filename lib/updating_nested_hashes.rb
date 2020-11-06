@@ -1,3 +1,5 @@
+epic_tragedy[:montague][:hero][:status] = "dead"
+
 def update_status
   epic_tragedy = {
     :montague => {
@@ -21,7 +23,7 @@ def update_status
 
   }
 
-  epic_tragedy[:montague][:hero][:status] = "dead"
+ 
 
 
 
@@ -29,6 +31,8 @@ def update_status
   # After your code, the following code will return the altered hash. This method must only return the modified epic_tragedy hash
   puts epic_tragedy
 end
+
+epic_tragedy[:capulet][:heroine][:status] = "dead"
 
 def add_characters
   epic_tragedy = {
