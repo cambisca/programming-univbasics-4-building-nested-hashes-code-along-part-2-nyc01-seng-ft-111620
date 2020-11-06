@@ -1,5 +1,3 @@
-epic_tragedy[:montague][:hero][:status] = "dead"
-
 def update_status
   epic_tragedy = {
     :montague => {
@@ -23,7 +21,7 @@ def update_status
 
   }
 
- 
+ epic_tragedy[:montague][:hero][:status] = "dead"
 
 
 
@@ -32,7 +30,7 @@ def update_status
   puts epic_tragedy
 end
 
-epic_tragedy[:capulet][:heroine][:status] = "dead"
+
 
 def add_characters
   epic_tragedy = {
@@ -56,7 +54,7 @@ def add_characters
    }
 }
   
-  
+  epic_tragedy[:capulet][:heroine][:status] = "dead"
    
    
    # Write code below that does the following programmatically:
